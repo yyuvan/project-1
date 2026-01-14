@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics</title>
+    <style> 
+    nav{
+        font-size: 30px;
+        text-align:center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: white;
+        padding: 20px;
+        margin: 0%;
+    }
+    p{
+        text-align: center;
+        color: rgb(253, 253, 253);
+        padding: 60px;
+        background-color: #520246;
+        margin: 0%;
+    }
+    
+    h1 {
+        text-align: center;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        margin
+    }
+    body {
+    /* Remove default browser spacing */
+    margin: 0;
+    padding: 0;
+
+    /* Set minimum height so the background covers the full screen */
+    min-height: 100vh;
+
+    /* Create a gradient background */
+    background-image: linear-gradient(
+        270deg,
+        #1e3c72,
+        #520246,
+        #6dd5fa,
+        #c30cc3
+    );
+
+    /* Prevent the background from repeating */
+    background-repeat: no-repeat;
+
+    /* Make the gradient larger than the screen for smooth animation */
+    background-size: 400% 400%;
+
+    /* Keep the background centered */
+    background-position: center;
+
+    /* Apply the animation */
+    animation: gradientMove 15s ease infinite;
+}
+
+/* Animation that moves the gradient */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+   footer {
+    margin:0%;
+    padding: 20px;
+    background-color: rgb(144, 0, 122);
+   }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Welcome to Semantics</h1>
+        <nav style="color: white;">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <p>Semantics is forms of information sectioned by headers, bodies and footers</p>
+    </section>
+    <footer>
+        <h3>To learn more contact us at 029274284</h3>
+    </footer>
+</body>
+</html>
